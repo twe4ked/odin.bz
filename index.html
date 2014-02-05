@@ -1,0 +1,28 @@
+---
+layout: default
+title: odin.bz
+---
+
+<h2>Log</h2>
+
+{% for post in paginator.posts %}
+  <article>
+    <h3><a href='{{ post.link }}'>{{ post.title }}</a></h3>
+    <time>{{ post.date | date_to_string }}</time>
+    {{ post.content }}
+
+    {% if post.vimeo %}
+      <iframe src='//player.vimeo.com/video/{{ post.vimeo }}?title=0&amp;badge=0&amp;color=ffffff' width='600' height='338' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    {% endif %}
+  </article>
+{% endfor %}
+
+<div class=pagination>
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Previous</a>
+  {% endif %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class=next>Next</a>
+  {% endif %}
+</div>

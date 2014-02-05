@@ -1,0 +1,9 @@
+name: odin.bz
+url: http://odin.bz
+markdown: redcarpet
+paginate: 5
+
+# GitHub Pages defaults:
+safe: true
+lsi: false
+pygments: true
