@@ -98,6 +98,10 @@ time {
   font-size: 0.75rem;
 }
 
+time a {
+  color: #999;
+}
+
 blockquote {
   margin-left: 0;
   margin-right: 0;

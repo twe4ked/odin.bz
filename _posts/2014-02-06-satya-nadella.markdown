@@ -1,6 +1,7 @@
 ---
 title: Microsoft, Past and Future
 link: http://daringfireball.net/2014/02/microsoft_past_and_future
+layout: post
 ---
 
 > Microsoft services, sending data to and from every networked device in the

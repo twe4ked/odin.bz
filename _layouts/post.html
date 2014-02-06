@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<article>
+  <h2>{{ page.title }}</h2>
+  <time>{{ page.date | date_to_string }}</time>
+  {{ content }}
+
+  {% if page.vimeo %}
+    <iframe src='//player.vimeo.com/video/{{ page.vimeo }}?title=0&amp;badge=0&amp;color=ffffff' width='600' height='338' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  {% endif %}
+</article>
