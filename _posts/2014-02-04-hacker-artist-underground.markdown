@@ -3,4 +3,4 @@ title: The New French Hacker-Artist Underground
 link: http://www.wired.com/magazine/2012/01/ff_ux/all/1
 ---
 
-> &ldquo;In a dream, it would have been more complicated.&rdquo;
+> "In a dream, it would have been more complicated."

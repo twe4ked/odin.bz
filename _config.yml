@@ -1,6 +1,8 @@
 name: odin.bz
 url: http://odin.bz
 markdown: redcarpet
+redcarpet:
+  extensions: [smart]
 paginate: 5
 
 # GitHub Pages defaults:

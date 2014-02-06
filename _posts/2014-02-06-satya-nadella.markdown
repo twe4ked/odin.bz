@@ -4,7 +4,7 @@ link: http://daringfireball.net/2014/02/microsoft_past_and_future
 ---
 
 > Microsoft services, sending data to and from every networked device in the
-> world. The next ubiquity isn&rsquo;t running on every device, it&rsquo;s talking to every
+> world. The next ubiquity isn't running on every device, it's talking to every
 > device.
 
 [Satya Nadella](http://www.microsoft.com/en-us/news/ceo/index.html) seems like
