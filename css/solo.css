@@ -13,7 +13,7 @@ html {
 
 body {
   margin: 3rem auto 0;
-  padding: 2rem 1rem 5rem;
+  padding: 1rem 1rem 5rem;
   color: #333;
   max-width: 600px;
 }
@@ -50,6 +50,11 @@ h1 {
   position: absolute;
   left: 20px;
   top: 20px;
+}
+
+.logo a {
+  display: block;
+  text-indent: -9001px;
 }
 
 @media (min-width: 30rem) {
