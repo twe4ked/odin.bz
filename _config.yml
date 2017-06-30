@@ -1,11 +1,10 @@
 name: odin.bz
 url: http://odin.bz
-markdown: redcarpet
-redcarpet:
-  extensions: [smart]
 paginate: 5
 
+gems: [jekyll-paginate]
+
 # GitHub Pages defaults:
-safe: true
 lsi: false
-pygments: true
+highlighter: rouge
+markdown: kramdown
